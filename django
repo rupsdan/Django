@@ -1,0 +1,16 @@
+#Install Django
+$ sudo apt install python3-django
+#Check Version
+$ django-admin --version
+
+#Create Project
+$ django-admin startproject schoolproject //schoolproject is a project name
+
+#check all hidden file
+$ tree schoolproject
+
+#go to the shoolproject
+$cd schoolproject
+
+#Start Django server
+$ python3 manage.py runserver
